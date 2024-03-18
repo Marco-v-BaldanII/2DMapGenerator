@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AlgorithmManager : MonoBehaviour
 {
@@ -54,5 +55,11 @@ public class AlgorithmManager : MonoBehaviour
         myAlgorithms[AlgorithmIndex].gameObject.SetActive(true);
     }
 
+    public void ReLoad()
+    {
+        SceneManager.LoadScene("Nothing");
+
+
+    }
 
 }
