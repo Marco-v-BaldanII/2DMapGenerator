@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8982671101638413042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4894528572186620514}
+  - component: {fileID: 1230180650906784184}
+  m_Layer: 0
+  m_Name: WaveGenerator (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4894528572186620514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982671101638413042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.1, y: 45.7, z: -0.0077989176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1230180650906784184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982671101638413042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deaf89b84d5e86546b8a40aaad7394d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dimensions: 20
+  tileObjects:
+  - {fileID: -8937310063115877339, guid: 18975eb7ae3bdfb4c8d80e7809de7d5c, type: 3}
+  - {fileID: -3191092954399447839, guid: c6f71d6c248990343b341165de04a68a, type: 3}
+  - {fileID: 5923755488826445607, guid: 4aca318adfa9b204290969c8daa3b1f5, type: 3}
+  - {fileID: -3922399319202208060, guid: a0210a2b02e08cd45b122783c5059cae, type: 3}
+  - {fileID: 1375485199604584345, guid: 816a707d5648ba94abfe4e5969ec865e, type: 3}
+  - {fileID: -5931769162240834706, guid: cea57e8831863974888694ab2f70a0b1, type: 3}
+  - {fileID: 7702736969574423993, guid: 761d0bd29e49b48499eafed787cd4c24, type: 3}
+  - {fileID: 60485284164537770, guid: 0bbcbe1e1d2cf2d40ab23a34ce489f34, type: 3}
+  - {fileID: -5433280089017913358, guid: fcef8dba6f3069048bf4b3b34e845b97, type: 3}
+  - {fileID: -2286405130018636789, guid: e9fb0d7dbfbdab8459abd78516ce50f1, type: 3}
+  gridComponents: []
+  cellObj: {fileID: 6077657712721337256, guid: 0c77fe06aae534c4d90f62b27a37d868, type: 3}

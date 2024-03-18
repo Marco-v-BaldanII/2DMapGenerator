@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f0708321de8a6604fa88a7cfa5c6576e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bradley Gratis
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 57cf67d8365530846a817a9486c4010e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
