@@ -2646,7 +2646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1177855774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deaf89b84d5e86546b8a40aaad7394d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions: 20
+  dimensions: 6
   tileObjects:
   - {fileID: 7982592481942065965, guid: a36f16101066f9d488ab3dff260040f6, type: 3}
   - {fileID: 4955254453987351555, guid: 4f781865177eca64ebfd183f8f75299e, type: 3}
@@ -2669,8 +2669,15 @@ MonoBehaviour:
   - {fileID: 3498027099586620365, guid: fbf9786267dff4f429e34d092fdb362a, type: 3}
   - {fileID: 610786793280774086, guid: 2b000653ae88e9245b79d64aedc55979, type: 3}
   gridComponents: []
+  allowedPositions:
+  - {x: 0, y: 0}
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 0, y: 1}
+  - {x: 2, y: 1}
+  - {x: 2, y: 2}
   cellObj: {fileID: 6077657712721337256, guid: 0c77fe06aae534c4d90f62b27a37d868, type: 3}
-  startpos: {x: 31, y: 29}
+  startpos: {x: 0, y: 0}
 --- !u!4 &1177855775
 Transform:
   m_ObjectHideFlags: 0
@@ -4063,9 +4070,9 @@ MonoBehaviour:
   tileMap: {fileID: 541683829}
   Floor: {fileID: 11400000, guid: 7e1cdaf4b5f3bab4e95871cfbb2ebd95, type: 2}
   Wall: {fileID: 11400000, guid: 07360d4720acdce4c80fd921461a8b1f, type: 2}
-  MapWidth: 30
-  MapHeight: 30
-  MaximumWalkers: 10
+  MapWidth: 20
+  MapHeight: 80
+  MaximumWalkers: 1
   TileCount: 0
   FillPercentage: 0.4
   WaitTime: 0.05
@@ -4587,7 +4594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deaf89b84d5e86546b8a40aaad7394d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions: 20
+  dimensions: 0
   tileObjects:
   - {fileID: -8937310063115877339, guid: 18975eb7ae3bdfb4c8d80e7809de7d5c, type: 3}
   - {fileID: -3191092954399447839, guid: c6f71d6c248990343b341165de04a68a, type: 3}
@@ -4600,6 +4607,7 @@ MonoBehaviour:
   - {fileID: -5433280089017913358, guid: fcef8dba6f3069048bf4b3b34e845b97, type: 3}
   - {fileID: -2286405130018636789, guid: e9fb0d7dbfbdab8459abd78516ce50f1, type: 3}
   gridComponents: []
+  allowedPositions: []
   cellObj: {fileID: 6077657712721337256, guid: 0c77fe06aae534c4d90f62b27a37d868, type: 3}
   startpos: {x: 0, y: 0}
 --- !u!4 &1908947197
@@ -4834,7 +4842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2112133443
 Transform:
   m_ObjectHideFlags: 0
